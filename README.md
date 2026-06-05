@@ -37,17 +37,20 @@ I am a Data-driven enthusiast passionated about turning raw data into meaningful
 
 ## 📁 Featured Projects
 
-### 📊 Retail & E-commerce Market Trend Analysis (EDA)
-* Clean and preprocess large-scale retail sales data (handling missing values, outliers).
-* Conduct Exploratory Data Analysis (EDA) to identify seasonal purchasing behaviors.
-* Propose data-driven recommendations to optimize high-margin product categories.
-* **Tech:** `Python` `Pandas` `Matplotlib` `Seaborn` `Jupyter Notebook`
+### 💳 Lending Club Credit Risk Analytics & Automated Pricing Dashboard | Python, XGBoost, Streamlit, Scikit-Learn, PCA
+* **Developed an end-to-end automated credit underwriting** and risk-based pricing system on a 1.6 GB peer-to-peer lending dataset.
+* **Optimized Feature Pipeline:** Applied Log10 transforms to fix financial skewness; resolved high multicollinearity (r ≈ 0.95) between loan amounts and monthly installments to stabilize linear coefficients.
+* **Advanced Analytics:** Implemented PCA to map core risk drivers onto a 2D space for automated portfolio segmentation; benchmarked algorithms where XGBoost achieved peak performance (R^2: 0.9771, MAE < 0.47%).
+* **Deployed App:** Built a live Streamlit dashboard with Plotly, enabling risk officers to input metrics and get real-time interest rate recommendations.
 
-### 📉 Customer Churn Analysis & Interactive BI Dashboard
-* Extract and segment customer data using complex SQL queries (Window Functions, Joins).
-* Design an end-to-end interactive dashboard with user-friendly UI/UX principles.
-* Enable dynamic tracking of monthly churn rates with Drill-down and Tooltips features.
-* **Tech:** `SQL` `Power BI` `Excel`
+---
+
+### 📉 Bank Customer Churn Analysis & Interactive Dashboard | Power BI, Python, Pandas, DAX
+* **Analyzed a 10K customer dataset** to address a 20.38% Churn Rate, successfully safeguarding a $764.86M credit portfolio.
+* **Data Pipeline & Analytics:** Preprocessed and segmented Age/Balance features using Python; built an interactive Power BI dashboard with dynamic DAX metrics for cohort cross-filtering.
+* **Key Insights:** Identified a peak 32.44% churn rate in Germany (37.55% for Females); discovered holding exactly 2 products optimized retention (7.60% churn), while 4 products led to a 100% churn collapse.
+* **Solutions:** Proposed a First-Year VIP Onboarding Program and a restructured multi-product package fee strategy.
+
 
 ---
 
